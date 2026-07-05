@@ -1,0 +1,5 @@
+# manipuNet runtime dependencies
+#
+# scapy is used to craft ARP requests for network discovery (MVP1). Everything
+# else (argparse, csv, socket, ipaddress) is in the Python standard library.
+scapy>=2.5.0
